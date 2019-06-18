@@ -3,7 +3,7 @@
 Below are the automated scripts to perform stack cleanup and corresponding status update:
 
 1. instances_cleanup.rb : Script for Deleting and logging status for all the instances from stacks which had all stopped instances alone.<br/>
-                           Input : Google Sheet downloaded as a CSV file. 
+                           Input : Google Sheet downloaded as a CSV file.<br/> 
                            Output: 'deleted_instances_result.csv' file.
                            
 2. stack_deployment_details.rb : Updating the stack's Last deployment date interval in days(By user and not Opsworks) for further action on online instances.<br/>
